@@ -23,7 +23,7 @@ function AppUI({
       <TodoList>
         {loading && <p>Estamos cargando...</p>}
         {error && <p>Desespérate, hubo un error!!</p>}
-        {!loading && searchedTodos == 0 && <p>¡Crea tu primer TODO!</p>}
+        {!loading && searchedTodos === 0 && <p>¡Crea tu primer TODO!</p>}
 
         {searchedTodos.map((todo) => (
           <TodoItem
