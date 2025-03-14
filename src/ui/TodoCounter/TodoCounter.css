@@ -3,8 +3,9 @@
   text-align: center;
   margin: 0;
   padding: 48px;
+  font-weight: normal;
 }
 
-.TodoCounter--loading {
-  opacity: 25%;
+.TodoCounter span {
+  font-weight: bold;
 }
